@@ -1,8 +1,15 @@
 {
-  "name": "opoJane",
-  "description": "A barebones nginx installation using Docker",
-  "repository": "https://github.com/OpUiajwk/heroku",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
-  "keywords": ["nginx", "docker", "proxy"],
-  "stack": "container"
-}
+    "name": "opoJane",
+    "description": "powered by OpUiajwk/heroku",
+    "keywords": ["shell", "telegram", "docker", "bot"],
+    "repository": "https://github.com/OpUiajwk/heroku.git",
+    "stack": "container",
+    "env": {
+      "c": {
+        "description": "coin crypto."
+      },
+      "P": {
+        "description": "apa coba"
+      }
+    }
+  }
