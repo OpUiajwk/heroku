@@ -1,15 +1,8 @@
 {
-    "name": "opoJane",
-    "description": "powered by OpUiajwk/heroku",
-    "keywords": ["shell", "telegram", "docker", "bot"],
-    "repository": "https://github.com/OpUiajwk/heroku.git",
-    "stack": "container",
-    "env": {
-      "c": {
-        "description": "coin crypto."
-      },
-      "P": {
-        "description": "apa coba"
-      }
-    }
-  }
+  "name": "heroku-docker-nginx-example",
+  "description": "powered by OpUiajwk/heroku",
+  "repository": "https://github.com/rjoonas/heroku-docker-nginx-example",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+  "keywords": ["nginx", "docker", "proxy"],
+  "stack": "container"
+}
