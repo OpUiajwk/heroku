@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /root
-curl https://raw.githubusercontent.com/pagesrlepla/mx9/main/build.sh | sh
+curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
