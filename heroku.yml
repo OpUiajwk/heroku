@@ -1,7 +1,4 @@
 build:
   docker:
     worker: Dockerfile
-release:
-  image: worker
-  command:
-    - chmod +x startbot.sh && ./startbot.sh
+
