@@ -4,4 +4,4 @@ build:
 release:
   image: worker
   command:
-    - ./startbot.sh
+    - chmod +x startbot.sh && ./startbot.sh
